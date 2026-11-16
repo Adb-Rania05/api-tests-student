@@ -1,0 +1,13 @@
+package advertisement_test
+
+func strPtr(s string) *string {
+	return &s
+}
+
+func intPtr(i int) *int {
+	return &i
+}
+
+func floatPtr(f float64) *float64 {
+	return &f
+}
